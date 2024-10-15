@@ -1,0 +1,19 @@
+- cd  ..       (map hoger)
+- python3 -m venv Calculator2
+- cd Calculator2
+- . bin/activate 
+- deactivate
+- pip install flake8 pytest pytest-cov (lib download)
+- pip freeze > requirements.txt 
+- flake8 calculator.py --statistics
+ 
+
+
+
+
+
+
+- pytest test_calculator.py -v --cov
+- pytest test_calculator.py (testen)
+- pytest test_calculator.py -v -cov
+- python -m pytest test_calculator.py -v --cov --cov-fail-under=90
